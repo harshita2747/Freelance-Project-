@@ -17,17 +17,13 @@ function closeMenu() {
 window.addEventListener('scroll', () => {
   if (window.scrollY > 80) {
     navLink.classList.add(
-      'bg-white/70',
       'backdrop-blur-lg',
       'shadow-lg'
     );
-    navLink.classList.remove('bg-gradient-to-r', 'from-[#b820e6]', 'to-[#da7d20]');
   } else {
     navLink.classList.remove(
-      'bg-white/70',
       'backdrop-blur-lg',
       'shadow-lg'
     );
-    navLink.classList.add('bg-gradient-to-r', 'from-[#b820e6]', 'to-[#da7d20]');
   }
 });
