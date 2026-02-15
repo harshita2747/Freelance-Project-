@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+<<<<<<< HEAD
     content: ["./*.html"],
+=======
+    content: ["./index.html", "./*.html","./**/*.html","./**/*.js"],
+>>>>>>> a2ae352d7709cd2096b117b45461f3706db1ca50
     theme: {
         extend: {
             gridTemplateColumns: {
