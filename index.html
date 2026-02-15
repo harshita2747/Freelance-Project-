@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahul Portfolio</title>
+    <title>Rahul Dev :: UI/UX Developer</title>
     <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="./input.css">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,29 +17,24 @@
         <img src="./assets/header-bg-color.png" alt="" class="w-full" />
     </div>
     <nav id="navbar" class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-center z-50">
-        <p class="bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20 sr-only">
-            Hidden</p>
-             <ul id="navLink"
-                 class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-gradient-to-r from-[#b820e6] to-[#da7d20] font-Ovo dark:border dark:border-white/30 dark:bg-transparent ">
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#top">Home</a></li>
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About me</a></li>
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#work">My Work</a></li>
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contact me</a></li>
-        </ul>
+        <p class="bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20 sr-only"> Hidden</p>
+             <ul id="navLink" class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-gradient-to-r from-[#b820e6] to-[#da7d20] font-Ovo dark:border dark:border-white/30 dark:bg-transparent ">
+                <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#top">Home</a></li>
+                <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About me</a></li>
+                <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#work">My Work</a></li>
+                <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contact me</a></li>
+            </ul>
    
        
 
         <div class="absolute right-6 top-1/2 -translate-y-1/2 flex items-center gap-4">
-
             <button class="block md:hidden ml-3" onclick="openMenu()">
                 <img src="./assets/menu-black.png" alt="" class="w-6 dark:hidden" />
                 <img src="./assets/menu-white.png" alt="" class="w-6 hidden dark:block" />
             </button>
-
         </div>
         <!-- ----- mobile menu ------ -->
-        <ul id="mobileMenu"
-            class="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white">
+        <ul id="mobileMenu" class="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white">
 
             <div class="absolute right-6 top-6" onclick="closeMenu()">
                 <img src="./assets/close-black.png" alt="" class="w-5 cursor-pointer dark:hidden" />
@@ -55,15 +49,15 @@
     </nav>
 
     <!-- ----- home section ------ -->
-    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-        <img src="./assets/21004063.jpg" alt="" class="rounded-full w-32 h-72" />
+    <div class="w-11/12 max-w-5xl text-center mx-auto h-screen py-24 flex flex-col items-center justify-center gap-4">
+        <!-- <img src="./assets/21004063.jpg" alt="" class="rounded-full w-32 h-72" /> -->
         <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
             Hi! I&apos;m Rahul Dev
             <img src="./assets/hand-icon.png" alt="" class="w-6 mb-1" />
         </h3>
-        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">frontend web developer based in India.</h1>
-        <p class="max-w-2xl mx-auto font-Ovo">I am a frontend developer from Haryana, India with 10 years of experience
-            in multiple companies like Innostax, Legitquest and Tava .</p>
+        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo max-w-3xl mx-auto">Frontend web developer based in India.</h1>
+        <p class="max-w-2xl mx-auto font-Ovo">I am a frontend developer from Haryana, India with 14 years of experience
+            in multiple companies like Innostax, Khaitan & Co. and Legitquest.</p>
 
         <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a href="#contact"
@@ -76,9 +70,7 @@
     </div>
 
     <!-- ----- about me section ------ -->
-    <div id="about" class="w-full px-[12%]  scroll-mt-20">
-           <h1 class="text-center mb-2 text-2xl md:text-3xl font-Ovo">Introduction</h1>
-        <h2 class="text-center text-5xl font-Ovo">About me</h2>
+    <div id="about" class="w-11/12 max-w-5xl mx-auto  scroll-mt-20 pb-24">
         <div class="flex w-full flex-col lg:flex-row items-center gap-20 ">
             <div class="max-w-max mx-auto relative"><img src="./assets/profile1.png" alt=""
                     class="w-64 sm:w-80 rounded-3xl max-w-none">
@@ -90,6 +82,8 @@
                 </div>
             </div>
             <div class="flex-1">
+                <h1 class="mb-2 text-2xl md:text-sm font-Ovo">Introduction</h1>
+                <h2 class="text-5xl font-Ovo mb-6">About me</h2>
                 <p class="mb-10 max-w-2xl font-Ovo">I am an experienced Frontend Developer with over a decade of
                     professional expertise in the field. Throughout my career, I have had the privilege of collaborating
                     with prestigious organizations, contributing to their success and growth.</p>
@@ -98,8 +92,8 @@
                         class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
                         <img src="./assets/code-icon.png" alt="" class="w-7 mt-3 dark:hidden"><img
                             src="./assets/code-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
-                        <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Languages</h3>
-                        <p class="text-gray-600 text-sm dark:text-white/80">HTML, CSS, JavaScript React Js, TypeScript</p>
+                        <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Skills</h3>
+                        <p class="text-gray-600 text-sm dark:text-white/80">HTML, CSS, JavaScript, React, React Native, Tailwind, Figma, Photoshop</p>
                     </li>
                     <li
                         class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
@@ -113,7 +107,7 @@
                         <img src="./assets/project-icon.png" alt="" class="w-7 mt-3 dark:hidden"><img
                             src="./assets/project-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
                         <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Projects</h3>
-                        <p class="text-gray-600 text-sm dark:text-white/80">Built more than 40 projects</p>
+                        <p class="text-gray-600 text-sm dark:text-white/80">Built more than 250 projects</p>
                     </li>
                 </ul>
                
@@ -122,14 +116,56 @@
     </div>
 
     <!-- My Work Section -->
-    <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="work" class="w-11/12 max-w-5xl mx-auto py-10 scroll-mt-20" x-data="{ tab: 'web' }">
         <h4 class="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
         <h2 class="text-center text-5xl font-Ovo">My latest work</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Welcome to my web development portfolio! Explore a
             collection of projects showcasing my expertise in front-end development.</p>
-        <div class="grid grid-cols-auto my-10 gap-5 dark:text-black">
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+    
+            <!-- Tabs -->
+     <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mt-6">
+       <div> 
+        <button
+            @click="tab = 'web'"
+            class="relative pb-2 lg:flex items-center gap-3 px-8 py-1.5 border border-gray-300 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full ml-4 font-Ovo dark:border-white/30">
+         
+            <span :class="tab === 'web' ? 'text-black font-semibold' : 'text-gray-400'">
+               Web
+            </span>
+            
+            <span
+             x-show="tab === 'web'"
+             x-transition
+             class="absolute left-0 -bottom-1 w-full h-[2px] bg-black"></span>
+         </button>
+    </div>
+    <div> 
+        <button
+           @click="tab = 'figma'"
+           class="relative pb-2 lg:flex items-center gap-3 px-8 py-1.5 border border-gray-300 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full ml-4 font-Ovo dark:border-white/30">
+    
+           <span :class="tab === 'figma' ? 'text-black font-semibold' : 'text-gray-400'">
+           Figma
+           </span>
+          
+           <span
+            x-show="tab === 'figma'"
+            x-transition
+            class="absolute left-0 -bottom-1 w-full h-[2px] bg-black"></span>
+        </button>
+    </div>
+       
+    </div>    
+    
+    
+
+    <!---------web design tab -------->
+        <div x-show="tab === 'web'" x-transition x-cloak
+        class="grid grid-cols-auto my-10 gap-5 dark:text-black">
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/legitquest.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -142,8 +178,10 @@
                     </div> </a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/libil.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -156,8 +194,10 @@
                     </div></a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/innostax.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -170,8 +210,10 @@
                     </div></a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/denim-health.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -183,8 +225,10 @@
                     </div></a>
                 </div>
             </div>
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/fortune.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -197,8 +241,10 @@
                     </div></a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/oa.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -211,8 +257,10 @@
                     </div></a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/derma-space.png');">
+               <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -225,8 +273,10 @@
                     </div></a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/brandcave.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -239,8 +289,10 @@
                     </div></a>
                 </div>
             </div>
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/jewish-federation.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -253,8 +305,10 @@
                     </div></a>
                 </div>
             </div>
-           <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+           <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/drone-blocks.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -267,8 +321,10 @@
                     </div></a>
                 </div>
             </div>
-         <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/radiation-detection.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -281,8 +337,10 @@
                     </div></a>
                 </div>
             </div>
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/tava-trips.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -295,8 +353,10 @@
                     </div></a>
                 </div>
             </div>
-             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/cricket.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -309,8 +369,10 @@
                     </div></a>
                 </div>
             </div>
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/khaitan-co.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -323,8 +385,10 @@
                     </div></a>
                 </div>
             </div>
-          <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
                 style="background-image: url('./assets/mark-bunting.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -338,90 +402,256 @@
                 </div>
             </div>
         </div>
+
+     <!---------figma design tab -------->
+        <div x-show="tab === 'figma'" x-transition x-cloak
+        class="grid grid-cols-auto my-10 gap-5 dark:text-black">
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/lq-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Legitquest</h2>
+                    </div>
+                     <a href="https://www.figma.com/design/A7JiDscYv19jW3fqjS4oCX/LQ-Home?node-id=0-1&t=KA40U6vW7CGBMIhO-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                     
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div> </a>
+                </div>
+            </div>
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/stop-ware-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Stop Ware</h2>
+                    </div>
+                     <a href="https://www.figma.com/design/hcMgihKLN3bMKE54RsNTBB/Stop-Ware?node-id=1202-1042&t=cGfsNS1SL4In09c1-1"target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                     
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/khaitan-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">KCO Blog</h2>
+                    </div>
+                      <a href="https://www.figma.com/design/HiFLyCPmBtqbWWT7fkBUrR/KCO-Blog?node-id=1202-1041&t=8LbaRhSkKxuXyF8q-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                    
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/lq1-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Corporate Badminton</h2>
+                    </div>
+                      <a href="https://www.figma.com/design/1a2j3uc9HcNGVz9dsIdAvb/Corporate-Badminton-Championship?node-id=0-1&t=IThcyVziUMc2IsWW-1 ---corporate " target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/lq2-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Kiosk</h2>
+                    </div>
+                    <a href="https://www.figma.com/design/CrC8xMAqv0sRRCL4SONkVT/lq-kiosk?node-id=0-1&t=0yTWO4oqSwGJCcfG-1   " target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                      
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/libil-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Libil</h2>
+                    </div>
+                     <a href="https://www.figma.com/design/14hr7IMXVEYoD9w4MURTwX/Libil?node-id=0-1&t=gK6a41OtVdZct8er-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                     
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/khaitan1-figma.png');">
+               <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Kai Query</h2>
+                    </div>
+                     <a href="https://www.figma.com/design/Of18hrgxinOcaftEOOTitO/Kai.Query?node-id=1202-28&t=FAlW7HuuhnhX7nsC-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                     
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+             <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/mountain-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Mountain View</h2>
+                    </div>
+                       <a href="https://www.figma.com/design/Zh1Nksz2tcbcutEfzDnjyO/Mountain-v2?node-id=0-1&t=HA0WDOwrDkygkQew-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                   
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/khaitan2-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">K-Hub</h2>
+                    </div>
+                    <a href="https://www.figma.com/design/1TmrxCQ1E8uQenjCsAnzbJ/K-hub-New?node-id=1202-698&t=KJm8qRuB4HcXZpy8-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                      
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+           <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/khaitan3-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Khaitan & Co.</h2>
+                    </div>
+                    <a href="https://www.figma.com/design/Sclc2lByUOzac27uYC0WzX/Availability-App?node-id=1204-1041&t=qvNnLiZpUFWsibeC-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                      
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group overflow-hidden"
+                style="background-image: url('./assets/lq3-figma.png');">
+                <div class="bg-indigo-950/75 absolute w-full h-full start-0 top-0"></div>
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">ABA</h2>
+                    </div>
+                      <a href="https://www.figma.com/design/OCiyQ7duMJrghf0lrfedvM/ABA?node-id=0-1&t=qgsQ5YKAH9KaZi78-1" target="_blank" rel="noopener noreferrer"class="flex items-center justify-center">
+                    <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                    
+                        <img class="w-5" src="./assets/send-icon.png" alt="Open Project"> 
+                    </div></a>
+                </div>
+            </div>
+
+        </div>
     </div>
+
+
+
 
     <!-- Contact me section -->
-<!-- Contact me section -->
-<div id="contact" class="w-full px-[12%] py-20 scroll-mt-20">
-  <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
-  <h2 class="text-center text-5xl font-Ovo mb-12">Contact me</h2>
-  
-  <div class="flex flex-col items-center gap-4">
 
-    <!-- Email -->
-    <a href="mailto:rahuldev.w@gmail.com"
-       class="flex items-center px-3 bg-white dark:bg-darkHover/30
-              border border-gray-300 dark:border-white/30 rounded-lg
-              hover:shadow-lg transition"
-       style="width: 400px;">
-
-      <img src="./assets/mail_icon_dark.png"
-           class="w-6 flex-shrink-0"
-           alt="Email">
-
-      <span class="flex-1 text-center font-Ovo text-gray-700 dark:text-white px-4">
-        rahuldev.w@gmail.com
-      </span>
-    </a>
-
-    <!-- Phone -->
-    <a href="tel:+919560585575"
-       class="flex items-center px-3 bg-white dark:bg-darkHover/30
-              border border-gray-300 dark:border-white/30 rounded-lg
-              hover:shadow-lg transition"
-       style="width: 400px;">
-
-      <img src="./assets/call.png"
-           class="w-6 flex-shrink-0"
-           alt="Phone">
-
-      <span class="flex-1 text-center font-Ovo text-gray-700 dark:text-white px-4">
-        +91 95605 85575
-      </span>
-    </a>
-
-    <!-- LinkedIn -->
-    <a href="https://linkedin.com/in/rahul-dev-35946724"
-       target="_blank" rel="noopener noreferrer"
-       class="flex items-center px-3 bg-white dark:bg-darkHover/30
-              border border-gray-300 dark:border-white/30 rounded-lg
-              hover:shadow-lg transition"
-       style="width: 400px;">
-
-      <img src="./assets/linkedin (1).png"
-           class="w-6 flex-shrink-0"
-           alt="LinkedIn">
-
-      <span class="flex-1 text-center font-Ovo text-gray-700 dark:text-white px-4">
-        LinkedIn
-      </span>
-    </a>
-
-  </div>
-</div>
-
-    <!-- Footer -->
-    <footer class="mt-20 border-t border-gray-300 dark:border-white/20 py-6">
+    <div id="contact" class="w-11/12 max-w-5xl mx-auto py-10  mb-10">
+    <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
+    <h2 class="text-center text-5xl font-Ovo mb-12">Contact me</h2>
     
-    <!-- Email -->
-    <div class="flex items-center justify-center gap-2 text-gray-700 dark:text-white">
-      <img src="./assets/mail_icon.png" alt="Email" class="w-5 dark:hidden">
-      <img src="./assets/mail_icon_dark.png" alt="Email" class="w-5 hidden dark:block">
-      <a href="mailto:yourname@email.com" class="hover:underline">
-       rahuldev.w@gmail.com
-      </a>
+    <div class="flex flex-col items-center gap-4">
+
+        <!-- Email -->
+        <a href="mailto:rahuldev.w@gmail.com"
+        class="flex items-center px-3 bg-white dark:bg-darkHover/30
+                border border-gray-300 dark:border-white/30 rounded-lg
+                hover:shadow-lg transition py-3"
+        style="width: 400px;">
+
+        <img src="./assets/mail_icon_dark.png"
+            class="w-6 flex-shrink-0"
+            alt="Email">
+
+        <span class="flex-1 text-center font-Ovo text-gray-700 dark:text-white px-4">
+            rahuldev.w@gmail.com
+        </span>
+        </a>
+
+        <!-- Phone -->
+        <a href="tel:+919560585575"
+        class="flex items-center px-3 bg-white dark:bg-darkHover/30
+                border border-gray-300 dark:border-white/30 rounded-lg
+                hover:shadow-lg transition py-3"
+        style="width: 400px;">
+
+        <img src="./assets/call.png"
+            class="w-6 flex-shrink-0"
+            alt="Phone">
+
+        <span class="flex-1 text-center font-Ovo text-gray-700 dark:text-white px-4">
+            +91 95605 85575
+        </span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/rahul-dev-35946724"
+        target="_blank" rel="noopener noreferrer"
+        class="flex items-center px-3 bg-white dark:bg-darkHover/30
+                border border-gray-300 dark:border-white/30 rounded-lg
+                hover:shadow-lg transition py-3"
+        style="width: 400px;">
+
+        <img src="./assets/linkedin (1).png"
+            class="w-6 flex-shrink-0"
+            alt="LinkedIn">
+
+        <span class="flex-1 text-center font-Ovo text-gray-700 dark:text-white px-4">
+            LinkedIn
+        </span>
+        </a>
+
     </div>
-  </div>
+    </div>
 
-  <!-- Bottom -->
-  <div class="mt-6 text-center text-sm text-gray-600 dark:text-gray-300">
-    © 2026 All rights reserved.
-  </div>
-
-</footer>
 
 
     <script src="./script.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 
 </body>
 
